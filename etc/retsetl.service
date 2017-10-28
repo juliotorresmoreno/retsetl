@@ -1,0 +1,14 @@
+[Unit]
+Description=
+After=network.target
+Documentation=
+
+[Service]
+Type=idle
+ExecStart=/opt/retsetl/retsetl -path /opt/retsetl
+TimeoutStopSec=0
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+Alias=retsetl.service

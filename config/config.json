@@ -1,0 +1,18 @@
+{
+    "port": "8080",
+    "readTimeout": 120,
+
+    "driver": "sqlite3",
+
+    "dbHost": "199.168.136.134",
+    "dbPort": "5432",
+    "dbName": "",
+    "dbUser": "mlsvowuser",
+    "dbPwd": "0112358",
+
+    "emailAdmin": "mlsvow2@gmail.com",
+    "emailSend": "mlsvow2@gmail.com",
+    "emailPassword": "kramkram",
+
+    "limit": 100
+}

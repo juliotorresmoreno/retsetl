@@ -1,0 +1,18 @@
+etl.mlsdatatools.com
+2 | 8GB | 25GB | NA
+Virtualizer
+199.168.136.144
+root / $zU2yd3wkI5g
+
+scp retsetl root@199.168.136.144:/root/retsetl
+scp -r build/* root@199.168.136.144:/root/retsetl/public
+
+that is for the etl app
+
+postgresql.mlsdatatools.com
+4 | 8GB | 50GB | NA
+Virtualizer
+199.168.136.134
+root / jnGktCz%ZdAp
+
+is where the PG db is
